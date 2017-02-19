@@ -11,15 +11,16 @@
 /* basic elements */
 html{
 	background-color:#DAD5BE;
-	font-family:arial;
-	/* middle color
-	background-color:#ECE7CF;
-	max-width:780px;
-	padding-left:5rem;
-	padding-right:5rem;
-	*/
+	font-family:helvetica;
 }
-body{
+.extra1{
+    background: #ECE7CF;
+    bottom: 0;
+    left: 338px;
+    position: fixed;
+    top: 0;
+    width: 780px;
+    z-index: -1;
 }
 header h1{
 	width:126px;
@@ -46,6 +47,9 @@ header h2{
 	line-height:36px;
 	padding-left:415px;
 }
+a{
+	color:#000;
+}
 .preamble{
 	width:619px;
 	height:450px;
@@ -59,15 +63,16 @@ header h2{
 	font-weight:300;
 	line-height:36px;
 	color:#fff;
+	padding-top: 30px;
+  padding-left: 80px;
 }
 .preamble p{
 	width:459px;
-	height:104px;
 	font-size:14px;
 	line-height:26px;
 	color:#fff;
+	padding-left:80px;
 }
-
 .main.supporting h3{
 	font-size:30px;
 	font-weight:300;
@@ -80,10 +85,13 @@ header h2{
 .explanation h3{
 	width:314px;
 	height:36px;
+	padding-top:28px;
+	padding-left:80px;
 }
 .explanation p{
 	width:619px;
-	height:117px;
+
+	padding-left:80px;
 }
 .explanation{
 	width:780px;
@@ -95,14 +103,16 @@ header h2{
 }
 .participation h3{
 	color:#fff;
+	padding-top:30px;
+	padding-left:80px;
 }
 .participation p{
 	width:299px;
-	height:191px;
 	color:#fff;
+	padding-left:80px;
 }
-.participation p:nth-child(2){
-	height:175px;
+.participation a{
+	color:#fff;
 }
 .participation{
 	width:460px;
@@ -115,10 +125,12 @@ header h2{
 .benefits h3{
 	width:109px;
 	height:36px;
+	padding-top:40px;
+	padding-left:80px;
 }
 .benefits p{
 	width:320px;
-	height:182px;
+	padding-left:80px;
 }
 .benefits{
 	width:480px;
@@ -131,19 +143,16 @@ header h2{
 .requirements h3{
 	width:187;
 	height:36px;
+	padding-top:40px;
+	padding-left:80px;
 }
 .requirements p{
 	width:460px;
-}
-.requirements p:nth-child(1){
-	height:110px;
-}
-.requirements p:nth-child(2){
-	height:150px;
+	padding-left:80px;
 }
 .requirements{
 	width:620px;
-	height:800px;
+	height:840px;
 	background-color:#F94F77;
   position: relative;
   top: -278px;
@@ -155,11 +164,12 @@ header h2{
 	font-weight:300;
 	font-size:30px;
 	line-height:36px;
+  padding-left: 40px;
+  padding-top: 40px;	
 }
 .design-selection ul{
 	list-style-type:none;
 	width:230px;
-	height:460px;
 }
 .design-selection li{
 	display:block;
@@ -171,7 +181,7 @@ header h2{
 	width:320px;
 	height:608px;
 	background-color: #87D8D5;
-	margin-top: -2787px;
+	margin-top: -2827px;
 	margin-left: 250px;
 }
 .design-name{
@@ -179,10 +189,13 @@ header h2{
 	font-size:14px;
 	font-weight:bold;
 	line-height:20px;
+	display:block;
+	padding-top:15px;
 }
 .designer-name{
 	font-size:14px;
 	line-height:20px;
+	padding-bottom:15px;
 }
 .design-archives h3{
 	width:117px;
@@ -190,20 +203,21 @@ header h2{
 	font-size:30px;
 	font-weight:300;
 	line-height:36px;
+	padding-top:30px;
+	padding-left:40px;
 }
 .design-archives ul{
 	list-style-type:none;
 	width:158px;
-	height:50px;
 	font-size:14px;
 	line-height:25px;
 }
 .design-archives{
 	width:240px;
-	height:200px;
+	height:210px;
 	background-color:#87D8D5;
   position: relative;
-  top: 1400px;
+  top: 1437px;
   left: 950px;
 }
 .zen-resources h3{
@@ -212,21 +226,24 @@ header h2{
 	font-size:30px;
 	font-weight:300;
 	line-height:36px;
+	padding-left:40px;
 }
 .zen-resources ul{
 	list-style-type:none;
 	width:158px;
-	height:50px;
 	font-size:14px;
 	line-height:25px;
 }
 .zen-resources{
 	width:240px;
-	height:224px;
+	height:214px;
 	background-color:#87D8D5;
   position: relative;
-	top: 1369px;
+	top: 1407px;
   left: 950px;
+}
+footer{
+	text-align:center;
 }
 /*
 footer{
